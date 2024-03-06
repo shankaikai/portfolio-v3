@@ -9,7 +9,7 @@ export const SectionHeader = forwardRef<
     ref={ref}
     {...props}
     className={cn(
-      "text-xl text-accent font-semibold tracking-tight mb-4",
+      "text-2xl text-accent font-semibold tracking-tight mb-4",
       className
     )}
   >
