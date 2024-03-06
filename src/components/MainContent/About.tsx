@@ -1,9 +1,9 @@
+import { SectionHeader } from "../ui/section-header";
+
 export function About() {
   return (
-    <section className="relative">
-      <h1 className="text-xl text-accent font-semibold tracking-tight mb-4">
-        About Me
-      </h1>
+    <section id="about" className="relative">
+      <SectionHeader>About Me</SectionHeader>
       <div className="space-y-4">
         <p>
           Back in 2012, I decided to try my hand at creating custom Tumblr

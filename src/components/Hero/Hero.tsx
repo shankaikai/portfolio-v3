@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 
 export function Hero() {
   return (
-    <header className="md:sticky md:top-0 md:max-h-screen flex flex-col p-8 gap-4 md:gap-6 rounded-lg">
+    <header className="lg:sticky lg:top-0 lg:max-h-screen flex flex-col p-8 gap-4 md:gap-6 rounded-lg">
       <div className="w-32 sm:w-48 aspect-square bg-slate-500 rounded-full" />
       <h1 className="text-4xl font-bold tracking-normal sm:text-5xl text-accent hover:text-secondary transition-colors duration-200 ease-in-out">
         <a href="/">Tiong Shan Kai</a>
