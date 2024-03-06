@@ -1,18 +1,18 @@
 import { HTMLAttributes, forwardRef } from "react";
 import { cn } from "@/lib/utils";
 
-export const SectionHeader = forwardRef<
+export const ItemHeader = forwardRef<
   HTMLHeadingElement,
   HTMLAttributes<HTMLHeadingElement>
 >(({ children, className, ...props }, ref) => (
-  <h1
+  <h2
     ref={ref}
     {...props}
     className={cn(
-      "text-2xl text-accent font-semibold tracking-tight mb-6",
+      "text-lg font-semibold text-accent tracking-tight",
       className
     )}
   >
     {children}
-  </h1>
+  </h2>
 ));

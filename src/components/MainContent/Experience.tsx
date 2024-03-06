@@ -3,6 +3,7 @@ import { Badge } from "../ui/badge";
 import { SectionHeader } from "../ui/section-header";
 import { useState } from "react";
 import { cn } from "../../lib/utils";
+import { ItemHeader } from "../ui/item-header";
 
 export function Experience() {
   return (
@@ -42,7 +43,7 @@ function ExperienceItem({
         <time className="text-sm font-normal ">
           {experience.from} - {experience.to}
         </time>
-        <h2 className="text-lg font-semibold text-accent">
+        <ItemHeader>
           {experience.title} @{" "}
           <a
             href={experience.link}
@@ -54,7 +55,7 @@ function ExperienceItem({
           >
             {experience.company}
           </a>
-        </h2>
+        </ItemHeader>
         <p>{experience.description}</p>
         <div className="flex items-center flex-wrap gap-2">
           {experience.skills.map((skill, index) => (
