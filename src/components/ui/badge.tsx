@@ -8,7 +8,7 @@ export const Badge = forwardRef<
   <span
     ref={ref}
     className={cn(
-      "inline-flex items-center whitespace-nowrap rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none",
+      "inline-flex items-center whitespace-nowrap rounded-full px-2.5 py-1 text-xs font-semibold transition-colors focus:outline-none bg-secondary/10 text-secondary",
       className
     )}
     {...props}
