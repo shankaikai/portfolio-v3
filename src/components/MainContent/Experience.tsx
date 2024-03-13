@@ -4,6 +4,7 @@ import { SectionHeader } from "../ui/section-header";
 import { useState } from "react";
 import { cn } from "../../lib/utils";
 import { ItemHeader } from "../ui/item-header";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export function Experience() {
   return (
@@ -39,21 +40,21 @@ function ExperienceItem({
       <div className="absolute aspect-square w-7 bg-accent rounded-full -start-3.5 text-black flex justify-center items-center overflow-clip">
         <img src={experience.logo} />
       </div>
-      <div className="space-y-3">
+      <div className="space-y-4">
         <time className="text-sm font-normal ">
           {experience.from} - {experience.to}
         </time>
-        <ItemHeader>
+        <ItemHeader className="flex items-center">
           {experience.title} @{" "}
           <a
             href={experience.link}
             target="_blank"
             rel="noreferrer noopener"
-            className="hover:underline hover:text-secondary transition-colors duration-200 ease-in-out"
+            className="ml-1 flex gap-x-2 items-center hover:underline hover:text-secondary transition-colors duration-200 ease-in-out"
             aria-label={`${experience.company} (opens in a new tab)`}
             title={experience.company}
           >
-            {experience.company}
+            {experience.company} <FaExternalLinkAlt className="h-3 w-3" />
           </a>
         </ItemHeader>
         <p>{experience.description}</p>
