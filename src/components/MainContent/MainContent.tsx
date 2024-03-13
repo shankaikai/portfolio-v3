@@ -1,6 +1,7 @@
-import { Projects } from "./Projects";
 import { About } from "./About";
 import { Experience } from "./Experience";
+import { Projects } from "./Projects";
+import { Testimonials } from "./Testimonials";
 
 export function MainContent() {
   return (
@@ -8,6 +9,7 @@ export function MainContent() {
       <About />
       <Experience />
       <Projects />
+      <Testimonials />
     </main>
   );
 }

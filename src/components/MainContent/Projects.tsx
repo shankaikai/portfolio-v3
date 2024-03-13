@@ -12,14 +12,14 @@ import {
 
 export function Projects() {
   return (
-    <div>
+    <section id="projects" className="relative">
       <SectionHeader>Projects</SectionHeader>
       <ol className="space-y-8">
         {projects.map((project) => (
           <ProjectItem key={project.title} project={project} />
         ))}
       </ol>
-    </div>
+    </section>
   );
 }
 
