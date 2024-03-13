@@ -1,13 +1,25 @@
 import indeed from "@/assets/indeed.png";
 import dhl from "@/assets/dhl.jpeg";
 import bluejay from "@/assets/bluejay.png";
+import tokka from "@/assets/tokka.png";
 
 // Most recent first
 export const experiences = [
   {
+    logo: tokka,
+    from: "Mar 2023",
+    to: "Present",
+    title: "Software Engineer",
+    company: "Tokka Labs",
+    description:
+      "Developing and maintain a proprietary digital assets trading platform.",
+    skills: ["TypeScript", "Next.js", "TailwindCSS"],
+    link: "https://tokkalabs.com/",
+  },
+  {
     logo: bluejay,
     from: "June 2023",
-    to: "Present",
+    to: "Mar 2023",
     title: "Software Engineer",
     company: "Bluejay Finance",
     description:

@@ -1,13 +1,13 @@
-import vms1 from "@/assets/projects/vms-1.jpeg";
-import vms2 from "@/assets/projects/vms-2.jpeg";
-import vms3 from "@/assets/projects/vms-3.jpeg";
-import peek1 from "@/assets/projects/peek-1.jpeg";
-import peek2 from "@/assets/projects/peek-2.jpeg";
-import peek3 from "@/assets/projects/peek-3.jpeg";
-import peek4 from "@/assets/projects/peek-4.jpeg";
-import peek5 from "@/assets/projects/peek-5.jpeg";
-import peek6 from "@/assets/projects/peek-6.jpeg";
-import peek7 from "@/assets/projects/peek-7.jpeg";
+import vms1 from "@/assets/projects/vms-1.jpg";
+import vms2 from "@/assets/projects/vms-2.jpg";
+import vms3 from "@/assets/projects/vms-3.jpg";
+import peek1 from "@/assets/projects/peek-1.jpg";
+import peek2 from "@/assets/projects/peek-2.jpg";
+import peek3 from "@/assets/projects/peek-3.jpg";
+import peek4 from "@/assets/projects/peek-4.jpg";
+import peek5 from "@/assets/projects/peek-5.jpg";
+import peek6 from "@/assets/projects/peek-6.jpg";
+import peek7 from "@/assets/projects/peek-7.jpg";
 
 export const projects = [
   {
