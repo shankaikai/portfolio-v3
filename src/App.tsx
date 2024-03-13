@@ -32,7 +32,7 @@ function App() {
           title="ViteJS"
           className="underline"
         >
-          React + Vite
+          React + Vite.
         </a>
       </div>
     </div>

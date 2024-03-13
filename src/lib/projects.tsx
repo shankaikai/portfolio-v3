@@ -34,7 +34,6 @@ export const projects = [
       "TypeScript",
       "Vite",
       "TailwindCSS",
-      "Vite",
       "Serverless",
       "PostgreSQL",
       "React Query",
