@@ -1,11 +1,16 @@
 import { CgTranscript } from "react-icons/cg";
 import { Button } from "../ui/button";
 import { Socials } from "./Socials";
+import self from "@/assets/self.jpg";
 
 export function Hero() {
   return (
     <header className="lg:sticky lg:top-0 lg:max-h-screen flex flex-col pt-16 gap-4 md:gap-6 rounded-lg">
-      <div className="w-32 sm:w-48 aspect-square bg-slate-500 rounded-full" />
+      <img
+        className="w-32 sm:w-48 aspect-square rounded-full object-cover"
+        src={self}
+        alt="self"
+      />
       <h1 className="text-4xl font-bold tracking-normal sm:text-5xl text-accent hover:text-secondary transition-colors duration-200 ease-in-out">
         <a href="/">Tiong Shan Kai</a>
       </h1>
