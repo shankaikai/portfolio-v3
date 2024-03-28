@@ -23,12 +23,14 @@ export function About() {
           >
             Tokka Labs
           </a>
-          . Where I am responsible for developing and maintaining their
-          proprietary digital assets trading platform.
+          , where I am developing and maintaining their proprietary digital
+          assets trading platform. Currently, I'm working in their middle office
+          team, which governs the transfer of funds.
         </p>
         <p>
           Outside work, I enjoy cooking, bouldering, working out, or playing
-          racket sports.
+          racket sports. I also enjoy reading about general finance and tech
+          news.
         </p>
       </div>
     </section>
