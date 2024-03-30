@@ -91,7 +91,7 @@ export const experiences = [
     from: "May 2020",
     to: "Aug 2020",
     title: "Information Technology Intern",
-    company: "DHL Express",
+    company: "DHL",
     description:
       "Built various applications and deployed automated scripts to improve company processes. Gathered requirements from internal clients and carried out user acceptance testing (UAT).",
     skills: ["Python", "JavaScript", "HTML", "CSS", "VBA", "R Shiny"],

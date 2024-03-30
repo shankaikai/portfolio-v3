@@ -11,7 +11,7 @@ function App() {
         </div>
       </div>
       <div className="fixed inset-y-0 m-auto h-1/2 w-1/2 bg-gradient-to-tr from-indigo-400 via-teal-900 to-[rgb(130,116,144)] blur-[118px] opacity-50" />
-      <div className="absolute z-20 bottom-0 left-1/2 -translate-x-1/2 py-4 text-accent/50 text-sm">
+      <div className="absolute z-20 bottom-0 left-1/2 -translate-x-1/2 py-4 text-accent/50 text-sm text-center">
         Built by{" "}
         <a
           href="https://github.com/shankaikai"

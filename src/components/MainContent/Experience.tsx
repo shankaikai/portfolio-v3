@@ -41,16 +41,16 @@ function ExperienceItem({
         <img src={experience.logo} />
       </div>
       <div className="space-y-4">
-        <time className="text-sm font-normal ">
+        <time className="text-sm font-normal">
           {experience.from} - {experience.to}
         </time>
-        <ItemHeader>
+        <ItemHeader className="flex flex-col gap-x-1 sm:flex-row ">
           {experience.title} @
           <a
             href={experience.link}
             target="_blank"
             rel="noreferrer noopener"
-            className="ml-1 inline-flex gap-x-2 items-center hover:underline hover:text-secondary transition-colors duration-200 ease-in-out"
+            className="inline-flex gap-x-2 items-center hover:underline hover:text-secondary transition-colors duration-200 ease-in-out"
             aria-label={`${experience.company} (opens in a new tab)`}
             title={experience.company}
           >
