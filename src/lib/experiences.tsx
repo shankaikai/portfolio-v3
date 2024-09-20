@@ -12,7 +12,7 @@ export const experiences = [
     title: "Software Engineer",
     company: "Tokka Labs",
     description:
-      "Developing and maintaining a proprietary digital assets trading platform.",
+      "Developed a trade enrichment service which processes 20,000 trades daily. Reduced the error rate of an internal asset transfer tool by 70%. ",
     skills: [
       "TypeScript",
       "Next.js",
