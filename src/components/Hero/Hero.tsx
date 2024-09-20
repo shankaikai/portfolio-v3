@@ -2,14 +2,20 @@ import { CgTranscript } from "react-icons/cg";
 import { Button } from "../ui/button";
 import { Socials } from "./Socials";
 import self from "@/assets/self.jpg";
+import { useState } from "react";
 
 export function Hero() {
+  const [isLoaded, setIsLoaded] = useState(false);
+
   return (
     <header className="lg:sticky lg:top-0 lg:max-h-screen flex flex-col pt-16 gap-4 md:gap-6 rounded-lg">
       <img
-        className="w-32 sm:w-48 aspect-square rounded-full object-cover"
+        className={`w-32 sm:w-48 aspect-square rounded-full object-cover transition-opacity duration-1000 ${
+          isLoaded ? "opacity-100" : "opacity-0"
+        }`}
         src={self}
         alt="self"
+        onLoad={() => setIsLoaded(true)}
       />
       <h1 className="text-4xl font-bold tracking-normal sm:text-5xl text-accent hover:text-secondary transition-colors duration-200 ease-in-out">
         <a href="/">Tiong Shan Kai</a>
